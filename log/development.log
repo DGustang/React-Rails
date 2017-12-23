@@ -1,0 +1,441 @@
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:34:55 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gustang/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gustang/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.0ms)
+Completed 200 OK in 266ms (Views: 13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:39:02 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1531ms (Views: 1530.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:44:13 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2085ms (Views: 2084.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:44:17 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:47:13 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1442ms (Views: 1440.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:47:17 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:48:12 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 17:48:14 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 73ms (Views: 71.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:11:13 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2963ms (Views: 2714.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:11:47 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 89ms (Views: 86.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:15:24 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2449ms (Views: 2444.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:19:36 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1273ms (Views: 1272.0ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:19:40 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.erb within layouts/application
+  Rendered pages/abouts.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 46.0ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:20:35 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.erb within layouts/application
+  Rendered pages/abouts.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 44.5ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:20:36 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.erb within layouts/application
+  Rendered pages/abouts.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 56.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:20:38 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 43.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:20:39 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 46ms (Views: 45.8ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:20:41 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.erb within layouts/application
+  Rendered pages/abouts.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 49.9ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:22:36 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.erb within layouts/application
+  Rendered pages/abouts.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 52.3ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:22:37 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.erb within layouts/application
+  Rendered pages/abouts.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 41.1ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:23:57 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 197ms (Views: 196.0ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:23:58 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 53.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:24:04 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 52ms (Views: 51.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:24:06 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 49.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:24:07 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 34.3ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:24:09 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 43ms (Views: 41.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 18:57:32 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 125ms (Views: 119.7ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:57:34 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 60.3ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 18:57:46 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 62ms (Views: 61.1ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 19:12:08 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 697ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'text/css'
+Checked in these paths: 
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/config
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/images
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/javascripts
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/stylesheets
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/node_modules
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/react-rails-2.4.3/lib/assets/react-source/development
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/react-rails-2.4.3/lib/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/popper_js-1.12.9/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/bootstrap-4.0.0.beta2.1/assets/javascripts):
+    4:     <title>Traveloper</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all' %>
+    8:     <%= javascript_include_tag 'application' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.scss:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__188032122762671106_70249912410620'
+app/controllers/pages_controller.rb:7:in `abouts'
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 19:13:04 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 38ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap' with type 'text/css'
+Checked in these paths: 
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/config
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/images
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/javascripts
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/app/assets/stylesheets
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Applications/XAMPP/xamppfiles/htdocs/GITHUB/traveloper/node_modules
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/react-rails-2.4.3/lib/assets/react-source/development
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/react-rails-2.4.3/lib/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/popper_js-1.12.9/assets/javascripts
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/gustang/.rvm/gems/ruby-2.4.0/gems/bootstrap-4.0.0.beta2.1/assets/javascripts):
+    4:     <title>Traveloper</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all' %>
+    8:     <%= javascript_include_tag 'application' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.scss:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__188032122762671106_70249957871080'
+app/controllers/pages_controller.rb:7:in `abouts'
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 19:14:22 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9899ms (Views: 9898.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:14:35 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.erb within layouts/application
+  Rendered pages/index.erb within layouts/application (2.3ms)
+Completed 200 OK in 75ms (Views: 73.9ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 19:14:40 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 75ms (Views: 73.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:16:02 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1604ms (Views: 1603.3ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 19:16:05 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 86ms (Views: 85.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:16:57 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 1254ms
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Expected corresponding JSX closing tag for <input> (37:24)
+  35 |                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  36 |                                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+> 37 |                         </form>
+     |                         ^
+  38 |                     </div>
+  39 |                 </nav>
+  40 |             </div>):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all' %>
+     8:     <%= javascript_include_tag 'application' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__188032122762671106_70249959070560'
+app/controllers/pages_controller.rb:3:in `home'
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:19:51 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1761ms (Views: 1760.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:20:06 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 94ms (Views: 92.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:20:37 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 68.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:21:00 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 90ms (Views: 89.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:21:24 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 63ms (Views: 62.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:21:52 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1621ms (Views: 1620.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:21:55 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 82ms (Views: 80.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:23:36 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1872ms (Views: 1871.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:23:49 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1374ms (Views: 1373.1ms)
+
+
+Started GET "/abouts" for 127.0.0.1 at 2017-12-23 19:24:13 +0700
+Processing by PagesController#abouts as HTML
+  Rendering pages/abouts.html.erb within layouts/application
+  Rendered pages/abouts.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 60ms (Views: 58.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:24:54 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 46.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:24:59 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 67ms (Views: 66.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:25:00 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 51.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:25:01 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 67.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-23 19:25:07 +0700
+Processing by PagesController#home as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65ms (Views: 64.6ms)
+
+
