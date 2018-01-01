@@ -1,4 +1,4 @@
-class Home extends React.Component {
+class HomeDashboard extends React.Component {
     render() {
         return (
             <div className="panel panel-flat">

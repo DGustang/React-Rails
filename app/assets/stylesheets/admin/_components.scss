@@ -1,0 +1,50 @@
+.navbar {
+  background: $color-dark;
+  & .navbar-header {
+    & .navbar-brand {
+      & img {
+        height: 28px;
+        margin-top: -2px;
+      }
+    }
+  }
+
+  & .navbar-nav {
+    & li {
+      & a {
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+.sidebar-fixed {
+  top: 6px;
+  border-right: none;
+  & .sidebar-content {
+    top: 52px;
+  }
+
+  & .navigation > li.active > a, .sidebar-default .navigation > li.active > a:hover, .sidebar-default .navigation > li.active > a:focus {
+    background-color: $color-green-dark;
+  }
+
+  & .navigation > li.active > a, .sidebar-default .navigation > li.active > a:hover, .sidebar-default .navigation > li.active > a:focus {
+    background-color: $color-green-dark;
+  }
+
+  & .navigation > li.active > a, .sidebar-default .navigation > li.active > a:hover, .sidebar-default .navigation > li.active > a:focus {
+    background-color: $color-green-dark;
+  }
+
+  & .navigation > li.active > a, .navigation > li.active > a:hover, .navigation > li.active > a:focus {
+    background-color: $color-green-dark;
+  }
+}
+
+.panel {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none;
+}

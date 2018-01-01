@@ -68,8 +68,8 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
 
-  config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'admin', 'css', 'icons', 'icomoon', 'fonts')
-  config.assets.precompile += %w( .eot .woff .ttf .svg)
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+  config.assets.precompile += %w( .eot .woff .ttf )
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).

@@ -1,0 +1,143 @@
+/* Common style */
+.grid-hover figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  background: #000000;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  width: 100%;
+}
+
+.grid-hover-small {
+  & figure {
+    height: 100px !important;
+  }
+}
+
+.grid-hover figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 1;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  object-fit: cover !important;
+}
+
+.grid-hover figure figcaption {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+.grid-hover figure figcaption::before,
+.grid-hover figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid-hover figure figcaption,
+.grid-hover figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid-hover figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid-hover figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
+
+.grid-hover figure h2 span {
+  font-weight: 600;
+}
+
+.grid-hover figure h2,
+.grid-hover figure p {
+  margin: 0;
+}
+
+.grid-hover figure p {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+//
+figure.effect-hover {
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #333333 100%);
+  background: linear-gradient(-45deg, #000000 0%, #333333 100%);
+}
+
+figure.effect-hover img {
+  opacity: 1;
+}
+
+figure.effect-hover figcaption::after,
+figure.effect-hover img,
+figure.effect-hover p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-hover h2,
+figure.effect-hover p {
+  opacity: 1;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+figure.effect-hover h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  text-align: center;
+  width: 100%;
+}
+
+figure.effect-hover p {
+  padding: 0.5em 0;
+  text-transform: none;
+  font-size: 12px;
+  opacity: 0;
+  text-align: left;
+}
+
+figure.effect-hover:hover img {
+  opacity: 1;
+  -webkit-transform: scale3d(1.05, 1.05, 1);
+  transform: scale3d(1.05, 1.05, 1);
+}
+
+figure.effect-hover:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+  transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+}
+
+figure.effect-hover:hover h2,
+figure.effect-hover:hover p {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}

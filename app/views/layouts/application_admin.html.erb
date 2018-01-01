@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Admin Traveloper</title>
+  <%= favicon_link_tag 'logo/favicon.png' %>
   <%= csrf_meta_tags %>
 
   <%= stylesheet_link_tag 'application_admin', media: 'all' %>
@@ -10,32 +11,24 @@
 
 <body class="navbar-top">
 
-<%= react_component 'Navbar' %>
+<%= react_component 'NavbarDashboard' %>
 
 <div class="page-container">
   <div class="page-content">
 
-    <div class="sidebar sidebar-main sidebar-fixed">
+    <div class="sidebar sidebar-default sidebar-main sidebar-fixed">
       <div class="sidebar-content">
         <div class="sidebar-user">
           <div class="category-content">
             <div class="media">
               <a href="#" class="media-left">
-                <img src="" class="img-circle img-sm" alt="" />
+                <%= image_tag 'logo/x-logo.png', :class => 'img-circle img-sm' %>
               </a>
               <div class="media-body">
-                <span class="media-heading text-semibold">Victoria Baker</span>
+                <span class="media-heading text-semibold">Travelopers</span>
                 <div class="text-size-mini text-muted">
-                  <i class="icon-pin text-size-small"></i> &nbsp;Santa Ana, CA
+                  <i class="icon-pin text-size-small"></i> &nbsp;Borneo city, KS
                 </div>
-              </div>
-
-              <div class="media-right media-middle">
-                <ul class="icons-list">
-                  <li>
-                    <a href="#"><i class="icon-cog3"></i></a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -45,8 +38,11 @@
           <div class="category-content no-padding">
             <ul class="navigation navigation-main navigation-accordion">
 
-              <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
-              <li><a href=""><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+              <!--<li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>-->
+              <li class="<%= active_class('/dashboard') %>"><a href="/dashboard"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+              <li class="<%= active_class('/transaction') %>"><a href="/transaction"><i class="icon-list-unordered"></i> <span>Transaction</span></a></li>
+              <li class="<%= active_class('/history-transaction') %>"><a href="/history-transaction"><i class="icon-list-unordered"></i> <span>History Transaction</span></a></li>
+              <li class="navigation-divider"></li>
 
             </ul>
           </div>
